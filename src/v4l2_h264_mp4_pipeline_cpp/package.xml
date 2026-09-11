@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>v4l2_h264_mp4_pipeline_cpp</name>
+  <version>0.0.1</version>
+  <description>Runs the V4L2 camera, H.264 encoder, and MP4 recorder nodes in one process.</description>
+  <maintainer email="developer@example.com">ROS 2 Developer</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>std_srvs</depend>
+  <depend>v4l2_camera_cpp</depend>
+  <depend>yuv_h264_encoder_cpp</depend>
+  <depend>h264_mp4_recorder_cpp</depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

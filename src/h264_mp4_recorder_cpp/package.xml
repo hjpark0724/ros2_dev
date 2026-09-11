@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>h264_mp4_recorder_cpp</name>
+  <version>0.0.1</version>
+  <description>H.264 ROS topic to MP4 recorder node using FFmpeg.</description>
+  <maintainer email="developer@example.com">ROS 2 Developer</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>h264_interfaces</depend>
+  <depend>rclcpp</depend>
+  <exec_depend>libavcodec-dev</exec_depend>
+  <exec_depend>libavformat-dev</exec_depend>
+  <exec_depend>libavutil-dev</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

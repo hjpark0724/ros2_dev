@@ -1,0 +1,7 @@
+/build/
+/install/
+/log/
+/cmake-build-*/
+/.colcon/
+/.idea/
+__pycache__/
