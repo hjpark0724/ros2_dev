@@ -2,6 +2,15 @@
 
 This workspace targets **Ubuntu 24.04** and **ROS 2 Jazzy Jalisco**.
 
+## Hardware integration notes
+
+- [STM32 micro-ROS UART ↔ Jetson ROS 2 Jazzy](docs/stm32_microros_uart_jetson.md):
+  STM32CubeMX, FreeRTOS, UART DMA custom transport, micro-ROS Agent, and motor-control safety
+  considerations based on `lFatality/stm32_micro_ros_setup`.
+- [MoveIt 2 installation and usage (ROS 2 Jazzy)](docs/moveit2_jazzy_installation_usage.md):
+  Install MoveIt 2, verify it with the Panda virtual robot, configure a custom robot, and connect
+  it to `ros2_control` hardware.
+
 ## One-time system installation
 
 Run the bootstrap script from the workspace root. It asks for your sudo password,
